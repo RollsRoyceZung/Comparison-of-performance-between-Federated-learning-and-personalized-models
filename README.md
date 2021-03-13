@@ -17,3 +17,6 @@ Learning, Clustering
 Run - Clestering Federated Learning Machine Learning </br>
 !python main_local.py --dataset=cifar --model=lenet --epochs=100 --gpu=0 --num_users=10 --alpha 0.5 --num_channels=3 </br>
 !python main_fed.py --dataset=cifar --model=lenet --epochs 30 --gpu 0 --lr 0.01 --num_users 10 --frac 0.1 --alpha 0.5
+
+### Reusluts
+![results](https://user-images.githubusercontent.com/78933101/111041042-99bad680-8479-11eb-84ed-91bec604460d.png)
